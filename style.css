@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+}
+nav{
+    background: #F9C300;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top:0;
+}
+#logo img{
+    width: 80px;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+}
+nav ol li{
+    display: inline-block;
+    padding: 30px;
+}
+nav ol li a{
+text-decoration: none;
+color: #ffffff;
+font-size: 25px;
+font-weight: 900;
+}
+#banner{
+    height: 100vh;
+    background-image: url(./img/menu.jpeg);
+    background-size: cover;
+}
+section h1{
+    color: #F9C300;
+    text-align: center;
+    padding: 20px 0; 
+}
+#month,#partner,#new{
+    width: 900px;
+    margin: 0 auto;
+}
+#partner li{
+    margin-left: 20px;
+    padding: 10px 0;
+}
+footer{
+    color: #ffffff;
+    height: 45px;
+    background-color: #F9C300;
+    text-align: center;
+    padding: 10px 0;
+}
